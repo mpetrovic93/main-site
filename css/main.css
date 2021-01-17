@@ -1,0 +1,50 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.container{
+    max-width:80%;
+    margin:auto;
+}
+    header{
+        display:flex;
+        background-color:silver;
+        align-items: center;
+    }
+    #logo-holder{
+        flex:1;
+    }
+    #main-menu{
+        flex:2;
+    }
+        header ul{
+            display:flex;
+        }
+        header li{
+            list-style:none;
+            flex:1;
+            margin-top:auto;
+            margin-bottom:auto;
+            
+        }
+
+            header a{
+                text-decoration:none;
+                color:#000;
+                
+            }
+
+                header a:hover{
+                    color:red;
+                }
+    .main-content{
+        display:flex;
+        justify-content: space-between;
+    }
+        .main-content .box{
+            flex-wrap: wrap;
+            flex-basis:18%;
+            background-color:silver;
+            border:3px solid-black; 
+        }
