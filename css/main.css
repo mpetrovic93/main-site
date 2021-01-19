@@ -5,6 +5,9 @@
 a{
     text-decoration:none;
 }
+li{
+    list-style: none;
+}
 .container{
     max-width:80%;
     margin:auto;
@@ -27,8 +30,7 @@ a{
         header ul{
             display:flex;
         }
-        header li{
-            list-style:none;
+        header li{            
             flex-basis:10%;
             margin-top:auto;
             margin-bottom:auto;
@@ -74,4 +76,25 @@ a{
                     text-align:center;
                     padding:10px;
                     background-color:#c57d7d;
+                }
+ /*Footer styling */
+    footer{
+        display:flex;
+        margin-top:10px;
+        background-color: silver;
+        align-items: center;
+    }
+        footer .footer-part{
+            flex:1;
+            padding:10px;
+        }
+            .footer-part img{
+                width: 35%;
+                height: 90px;
+            }
+                .footer-part nav{
+                    text-align:center;
+                }
+                .footer-part p{
+                    text-align:right;
                 }
